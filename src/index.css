@@ -1,0 +1,84 @@
+.zero {
+  border-style: solid;
+  border-color: dimgray;
+  border-width: 0.5px;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+}
+
+.one {
+  border-style: solid;
+  border-color: dimgray;
+  border-width: 0.5px;
+  background-color: #F8C631;
+  width: 20px;
+  height: 20px;
+}
+
+.two {
+  border-style: solid;
+  border-color: dimgray;
+  border-width: 0.5px;
+  background-color: #FB9B03;
+  width: 20px;
+  height: 20px;
+}
+
+.three {
+  border-style: solid;
+  border-color: dimgray;
+  border-width: 0.5px;
+  background-color: #F27417;
+  width: 20px;
+  height: 20px;
+}
+
+.four {
+  border-style: solid;
+  border-color: dimgray;
+  border-width: 0.5px;
+  background-color: #CD4146;
+  width: 20px;
+  height: 20px;
+}
+
+.five {
+  border-style: solid;
+  border-color: dimgray;
+  border-width: 0.5px;
+  background-color: #A42861;
+  width: 20px;
+  height: 20px;
+}
+
+.six {
+  border-style: solid;
+  border-color: dimgray;
+  border-width: 0.5px;
+  background-color: #76146F;
+  width: 20px;
+  height: 20px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.generation {
+  text-align: center;
+  font-size: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 5px;
+  height: 40px;
+  width: 80px;
+  font-size: 20px;
+}
