@@ -71,14 +71,26 @@ table {
   font-size: 30px;
 }
 
-.buttons {
-  display: flex;
-  justify-content: center;
+@media screen and (max-width:599px) {
+  button {
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    display: block;
+    margin: 5px auto;
+  }
 }
 
-button {
-  margin: 5px;
-  height: 40px;
-  width: 80px;
-  font-size: 20px;
+@media screen and (min-width:600px) {
+  .buttons {
+    text-align: center;
+  }
+
+  button {
+    margin: 5px;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+  }
 }
+
