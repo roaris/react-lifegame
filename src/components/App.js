@@ -96,25 +96,28 @@ const App = () => {
 
   return (
     <>
+      <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+      </head>
       <body>
-      <table>
-        {display}
-      </table>
-      <p className='generation'>{generation}世代目</p>
-      <div className='buttons'>
-        <button onClick={()=>setFlag(true)}>start</button> <br />
-        <button onClick={()=>setFlag(false)}>stop</button> <br />
-        <button onClick={()=>{
-          setFlag(false)
-          setAlive(initial)
-          setGeneration(0)
-        }}>reset</button>
-        <button onClick={()=>{
-          setFlag(false)
-          randomSet()
-          setGeneration(0)
-        }}>random</button>
-      </div>
+        <table>
+          {display}
+        </table>
+        <p className='generation'>{generation}世代目</p>
+        <div className='buttons'>
+          <button onClick={()=>setFlag(true)}>start</button> <br />
+          <button onClick={()=>setFlag(false)}>stop</button> <br />
+          <button onClick={()=>{
+            setFlag(false)
+            setAlive(initial)
+            setGeneration(0)
+          }}>reset</button>
+          <button onClick={()=>{
+            setFlag(false)
+            randomSet()
+            setGeneration(0)
+          }}>random</button>
+        </div>
       </body>
     </>
   )
